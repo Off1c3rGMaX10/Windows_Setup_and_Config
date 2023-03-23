@@ -11,6 +11,7 @@ scoop install git 7zip python docker docker-compose winget
 scoop bucket add extras
 scoop install vivaldi vscodium powertoys notepadplusplus rufus
 scoop install etcher discord plex-desktop autohotkey sharex 
+# With Spotify click open when a pop up screen comes up if it still doesn't continue the script then just comment out all the lines you have run through before it stopped
 scoop install cheat-engine cyberduck tabby vlc spotify
 scoop install github wingetui filezilla wireshark rainmeter
 
@@ -39,6 +40,7 @@ winget install -e --id Files-Community.Files
 
 
 # WSL install
+# Run as Administrator to install WSL
 wsl --install
 
 
